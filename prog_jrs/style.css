@@ -1,0 +1,62 @@
+/* FILE PPLG */
+/* FILE PPLG */
+/* CONTENT PERTAMA */
+.jrs-pplg {
+    text-align: center;
+    margin-top: 20px;
+}
+.wrap-1_pplg {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pplg {
+    margin: auto;
+    padding: 20px;
+    width: 50%; 
+    text-align: justify;
+}
+.img-pplg {
+    margin-right: 20px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.img-pplg img {
+    width: 100%;
+}
+.ind {
+    text-indent: 30px;
+}
+.hr {
+    border: 1px solid black;
+    height: 2px;
+    margin-bottom: 20px;
+}
+.super {
+    background-color: aqua;
+    padding: 15px;
+}
+.parag {
+    text-align: justify;
+    margin-top: 35px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+/* RESPONSIVE */
+/* RESPONSIVE */
+@media screen and (max-width: 735px) {
+    .wrap-1_pplg {
+        display: inline-block;
+        padding: 5px;
+    }
+    .pplg {
+        width: 100%;
+    }
+    .img-pplg {
+        width: 100%;
+    }
+}

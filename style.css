@@ -251,7 +251,7 @@ nav ul li ul li a {
 }
 
 .btn-cta {
-    background-color: #478ac9;
+    background-color: #222;
     border-radius: 10px;
     color: whitesmoke;
     font-weight: bold;
@@ -407,16 +407,17 @@ iframe {
 
 /* CONTENT KEENAM */
 /* MEDIA SOSIAL */
+.wrap_6 {
+    width: 70%;
+    margin: auto;
+}
 .icon_medsos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 70%;
     margin: auto;
     gap: 20px;
-    margin-bottom: 30px;
-    
-    
+    margin-bottom: 30px; 
 }
 .icon_medsos i {
     transition: all .5s ease;
@@ -458,6 +459,7 @@ iframe {
     padding-top: 50px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     padding-right: 20px;
+    text-transform: uppercase;  
 }
 
 .wrap_list {
@@ -472,7 +474,7 @@ iframe {
     margin: 20px 5px 0 20px;
     width: 50%;
     text-align: justify;
-    padding: 20px;
+    padding: 30px;
     padding-right: 50px;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -528,6 +530,12 @@ iframe {
 .body-card-jrs {
     padding: 10px 15px;
 }
+.body-card-jrs:not(.body-card-jrs h1, p) {
+    text-align: center;
+}
+.body-card-jrs p {
+    text-align: justify;
+}
 
 .body-card-jrs a {
     text-decoration: none;
@@ -569,7 +577,6 @@ iframe {
     line-height: 42px;
     padding: 0;
     border: none;
-
 }
 
 .btn-3 span {
@@ -603,7 +610,6 @@ iframe {
     background: transparent;
     box-shadow: none;
 }
-
 .btn-3:hover:before {
     height: 100%;
 }
@@ -644,9 +650,39 @@ iframe {
     width: 100%;
 }
 
-/* FILE PROGRAM KEJURUSAN */
-/* FILE PROGRAM KEJURUSAN */
+/* FILE GALERI */
+/* FILE GALERI */
+.container-galeri {
+    border: 1px solid black;
+}
+.list-galeri {
+    border: 1px solid black;
+}
+.list-galeri img {
+    width: 200px;
+}
+.wrap-galeri {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto;
+    border: 1px solid black;
+    justify-content: center;
+    
+}
 /* CONTENT PERTAMA */
+.prog-jrs {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+}
+.wrap_prog-jrs {
+    width: 30vw;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid black;
+}
 
 
 /* RESPONSIVE */
