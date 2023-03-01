@@ -34,10 +34,7 @@
     <!-- LOGO -->
     <link rel="icon" href="img/Logo_Sekolah_SMKN_2_Jakarta-removebg-preview.png">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    <script>
-        !window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
-    </script>
-    <script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+
     <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
     <link rel="stylesheet" href="style.css" />
@@ -122,21 +119,7 @@
             });
         });
     </script>
-
-    <style>
-        .image img {
-            width: 200px;
-            height: 200px;
-            border-radius: 20px;
-        }
-        .modal {
-            display: flex;
-            flex-wrap: wrap;
-            z-index: -1;
-
-        }
-
-    </style>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -150,7 +133,7 @@
 
 
     <!-- NAVBAR -->
-    <section class="navigation show" id="header">
+    <section class="navigation">
         <div class="nav-container">
             <div class="brand">
                 <a href="#!" id="inline"><img src="img/SMKN_2_Jakarta-removebg-preview.png" alt=""></a>
@@ -173,8 +156,9 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
-                    <li>
-                        <a href="my_smk.html" class="btn-cta">MY SMK</a>
+                    <li class="btn-cta">
+                        <input type="text" placeholder="  Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
                     </li>
                 </ul>
             </nav>
@@ -183,12 +167,82 @@
 
     <!-- CONTENT PERTAMA -->
     <div class="modal">
-        <a rel="example_group" href="img/pexels-ezra-comeau-2387418.jpg" title=""
-            class="image"><img alt="" src="img/pexels-ezra-comeau-2387418.jpg" /></a>
-        <a rel="example_group" href="img/pexels-ezra-comeau-2387418.jpg" title=""
-            class="image"><img alt="" src="img/pexels-ezra-comeau-2387418.jpg" /></a>
-        <a rel="example_group" href="img/pexels-ezra-comeau-2387418.jpg" title=""
-            class="image"><img alt="" src="img/pexels-ezra-comeau-2387418.jpg" /></a>
+        <div class="img-modal">
+            <a rel="example_group" href="prog_jrs/New folder/1/foto1.jpg" title=""><img alt=""src="prog_jrs/New folder/2/foto1.jpg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto2.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto2.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto3.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto3.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto4.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto4.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto5.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto5.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto6.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto6.jpeg" /></a>
+
+            <a rel="example_group" href="prog_jrs/New folder/1/foto7.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto7.jpeg" /></a>
+
+            <a rel="example_group" href="prog_jrs/New folder/1/foto8.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto8.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto9.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto9.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto10.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto10.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto11.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto11.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto12.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto12.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto13.jpg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto13.jpg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto15.JPG" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto15.JPG" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto17.JPG" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto17.JPG" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto19.JPG" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto19.JPG" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto20.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto20.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto21.jpg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto21.jpg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto23.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto23.jpg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto24.jpg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto24.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto25.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto25.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto26.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto26.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto27.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto27.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto28.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto28.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto29.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto29.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto30.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto30.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto31.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto31.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto33.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto33.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto34.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto34.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto35.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto35.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto36.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto36.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto37.jpeg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto37.jpg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto38.jpg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto38.jpg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto39.jpg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto39.jpeg" /></a>
+            <a rel="example_group" href="prog_jrs/New folder/1/foto40.jpg" title="">
+                <img alt="" src="prog_jrs/New folder/2/foto40.jpg" /></a>
+
+
+
+        </div>
     </div>
 
     <script src="script.js"></script>

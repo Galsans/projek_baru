@@ -29,7 +29,39 @@
     <link rel="stylesheet" href="style.css">
     <!-- LOGO -->
     <link rel="icon" href="img/Logo_Sekolah_SMKN_2_Jakarta-removebg-preview.png">
+    <style>
+        .form input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
 
+        .form input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .container-form {
+            border-radius: 20px;
+            padding: 20px;
+            padding-top: 100px;
+        }
+    </style>
 </head>
 
 <body>
@@ -59,7 +91,7 @@
                     </li>
                     <li>
                         <a href="jurusan.html">Kejurusan</a>
-                        
+
                     </li>
                     <li>
                         <a href="galeri.html">Galeri</a>
@@ -67,17 +99,75 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
-                    <li>
-                        <a href="my_smk.html" class="btn-cta">MY SMK</a>
-
+                    <li class="btn-cta">
+                        <input type="text" placeholder=" Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
                     </li>
 
                 </ul>
             </nav>
         </div>
     </section>
+    <!--Form Content-->
+    <div class="container-form">
+        <div class="card">
+            <div class="card-body">
+                <h3>Contact Form</h3>
+                <div class="form mt-4">
+                    <label for="fname">Nama Anda</label>
+                    <input type="text" id="fname" placeholder="Nama Anda..">
+                    <label for="lname">Email Anda</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Email Anda..">
 
+                    <label for="Asal">Asal Anda</label>
+                    <select id="Asal" name="Asal">
+                        <option value="JakPus">Jakarta Pusat</option>
+                        <option value="JakBar">Jakarta Barat</option>
+                        <option value="JakTim">Jakarta Timur</option>
+                        <option value="Jakut">Jakarta Utara</option>
+                        <option value="JakSel">Jakarta Selatan</option>
+                    </select>
 
+                    <label for="subject">Pesan Anda</label>
+                    <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Tentang Content-->
+    <div class="container mt-3 mb-3" style="margin: auto;">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <div class="text-right">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.639270226848!2d106.83208645084609!3d-6.1790166622461635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4330fc1f097%3A0x380210b0f3ed4996!2sSMK%20Negeri%202%20Jakarta!5e0!3m2!1sid!2sid!4v1677565561137!5m2!1sid!2sid"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="">
+                            <address style="margin-top: 40px;">
+                                <h1> Alamat Sekolah</h1>
+                                <p>Alamat : Jl. Batu III, RT.6/RW.1, Gambir, Kecamatan Gambir</p>
+                                <p>Kota/Kab : Kota Jakarta Pusat</p>
+                                <p>Provinsi : DKI Jakarta</p>
+                                <p>Phone : (021) 3846219</p>
+                                <p>Zip Code : 10110</p>
+                                <p>Email : info@smkn2smi.sch.id </p>
+                                <p>Website : www.smkn2jakarta.sch.id</p>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
