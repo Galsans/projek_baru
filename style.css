@@ -199,12 +199,16 @@ nav ul li a:visited {
 nav ul li a {
     background: transparent;
     color: #FFF;
+    transition: all .35s ease-in-out;
 }
 
 nav ul li a:hover,
 nav ul li a:visited:hover:not(.btn-cta) {
-    background: #2581DC;
-    color: #ffffff;
+    
+    color: #222;
+    font-weight: bold;
+    border-bottom: 4px solid black;
+    z-index: -1;
 }
 
 .navbar-dropdown li a {
@@ -319,6 +323,7 @@ nav ul li ul li a {
 
 iframe {
     border-radius: 15px;
+    
 }
 
 /* CONTENT KEEMPAT */
@@ -339,18 +344,24 @@ iframe {
 }
 
 .cdn h2 {
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: bold;
 }
 
 .cdn h4 {
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 20px;
 }
 
 .cdn p {
-    margin-bottom: 30px;
-}
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 30px;
+        background-color: #F9DBBB;
+        padding: 20px;
+        border-radius: 15px;
+    }
 
 .gambar {
     width: 420px;
@@ -359,6 +370,7 @@ iframe {
 .gambar img {
     border-radius: 25px;
     width: 400px;
+    margin-top: 100px;
 }
 
 .accordion-item button {
@@ -507,7 +519,7 @@ iframe {
 }
 
 .section_jrs {
-    padding: 100px 20px 0 80px;
+    padding: 100px 20px 0 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -516,7 +528,9 @@ iframe {
 }
 
 .section_jrs h2 {
+    font-family: 'DM Serif Display', serif;
     font-size: 40px;
+    text-align: center;
 }
 
 .explan_jrs {
@@ -531,12 +545,16 @@ iframe {
     padding: 20px;
 }
 
+
 .explan_jrs h3 {
     font-size: 25px;
+    font-family: 'Noticia Text', serif;
+    font-weight: bold;
 }
 
 .explan_jrs p {
     font-size: 15px;
+    Font-family: 'Nunito Sans', sans-serif;
 }
 
 .container_jrs {
@@ -576,6 +594,7 @@ iframe {
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+    
 }
 
 .body-card-jrs {
@@ -586,8 +605,13 @@ iframe {
     text-align: center;
 }
 
+.body-card-jrs h1{
+    font-family: 'Bree Serif', serif;
+}
 .body-card-jrs p {
+    font-family: 'Crimson Text', serif;
     text-align: justify;
+    text-align: center;
 }
 
 .body-card-jrs a {
@@ -722,7 +746,11 @@ iframe {
     z-index: -1;
 }
 
-
+/* FILE EKSKUL */
+/* FILE EKSKUL */
+.row {
+    padding-top: 100px;
+}
 /* RESPONSIVE */
 /* RESPONSIVE */
 @media (min-width: 768px) {
@@ -750,6 +778,7 @@ iframe {
 
     .cdn h2,
     .gambar {
+        font-family: 'Poppins', sans-serif;
         text-align: center;
         margin-bottom: 10px;
     }
@@ -918,8 +947,13 @@ iframe {
 .major_pplg {
     text-align: center;
     padding-top: 100px;
+    
 }
 
+.major_pplg h1 {
+    font-family: 'Bree Serif', serif;
+
+}
 .wrap-1_pplg {
     display: flex;
     padding: 20px;
@@ -956,14 +990,14 @@ iframe {
 }
 
 .super {
-    background-color: aqua;
+    background-color: rgb(204, 230, 230);
     padding: 15px;
 }
 
 .parag {
     text-align: justify;
     margin-top: 35px;
-    background-color: antiquewhite;
+    background-color: rgb(178, 190, 210);
     padding: 10px;
 }
 
