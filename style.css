@@ -139,7 +139,7 @@ body {
 /* NAVBAR */
 .navigation {
     height: 80px;
-    background: linear-gradient(-90deg, #4199fe, #74b4fe);
+    background: linear-gradient(-90deg, #2277AA, #4d99c9);
     z-index: 9;
     position: fixed;
     width: 100%;
@@ -151,6 +151,11 @@ body {
     line-height: 55px;
     text-transform: uppercase;
     font-size: 1.4em;
+    margin-left: 10px;
+}
+.brand img {
+    width: 200px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -280,7 +285,7 @@ nav ul li ul li a {
     padding-bottom: 20px;
     padding-top: 40px;
     text-align: justify;
-    background-color: #79a2d1;
+    background-color: #77b1d5;
     margin-bottom: 20px;
 }
 
@@ -405,12 +410,12 @@ iframe {
 
 /* CONTENT KEENAM */
 /* MEDIA SOSIAL */
-.wrap_6 {
+.foot_wr {
     width: 70%;
     margin: auto;
     
 }
-.wrap_6 p {
+.foot_wr p {
     font-family: 'Domine', serif;
 }
 
@@ -442,6 +447,53 @@ iframe {
     color: white;
     margin-top: 100px;
 }
+.foot_wr {
+    width: 70%;
+    margin: auto;
+}
+
+.foot_wr p {
+    font-family: 'Domine', serif;
+}
+
+.icon_medsos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.icon_medsos i {
+    transition: all .5s ease;
+    color: #F9DBBB;
+}
+
+.icon_medsos i:hover {
+    color: blue;
+}
+
+/* FOOTER */
+.poter {
+    background-color: #222;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.foot_wr {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
 
 /* FILE JURUSAN */
 /* FILE JURUSAN */
@@ -454,7 +506,7 @@ iframe {
     justify-content: space-between;
 }
 
-.container-jurusan {
+.section_jrs {
     padding: 100px 20px 0 80px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
@@ -463,7 +515,7 @@ iframe {
     padding-bottom: 100px;
 }
 
-.container-jurusan h2 {
+.section_jrs h2 {
     font-size: 40px;
 }
 
@@ -565,15 +617,11 @@ iframe {
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
-        7px 7px 20px 0px rgba(0, 0, 0, .1),
-        4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
 }
 
 .btn-3 {
-    background: rgb(0, 172, 238);
-    background: linear-gradient(0deg, rgba(0, 172, 238, 1) 0%, rgba(2, 126, 251, 1) 100%);
+    background: #3A98B9;
     width: 130px;
     height: 40px;
     line-height: 42px;
@@ -594,7 +642,7 @@ iframe {
     content: "";
     right: 0;
     top: 0;
-    background: rgba(2, 126, 251, 1);
+    background: #3A98B9;
     transition: all 0.3s ease;
 }
 
@@ -631,7 +679,7 @@ iframe {
     content: "";
     left: 0;
     bottom: 0;
-    background: rgba(2, 126, 251, 1);
+    background: #3A98B9;
     transition: all 0.3s ease;
 }
 
@@ -665,7 +713,6 @@ iframe {
 .img-modal {
     margin-top: 100px;
     text-align: center;
-    margin-bottom: 100vh;
 }
 
 .modal {
@@ -673,7 +720,6 @@ iframe {
     justify-content: space-around;
     flex-wrap: wrap;
     z-index: -1;
-
 }
 
 
@@ -708,7 +754,7 @@ iframe {
         margin-bottom: 10px;
     }
 
-    .container-jurusan h2 {
+    .section_jrs h2 {
         text-align: center;
     }
 }
@@ -806,7 +852,7 @@ iframe {
         text-align: center;
     }
 
-    .container-jurusan {
+    .section_jrs {
         padding-left: 20px;
     }
 
